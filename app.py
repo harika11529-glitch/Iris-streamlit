@@ -6,7 +6,7 @@ model = RandomForestClassifier()
 x = data.data
 y = data.target
 model.fit(x,y)
-st.header("Iris flowe Classification")
+st.header("Iris flower Classification")
 sl = st.number_input("Enter sepal length")
 sw = st.number_input("Enter sepal width")
 pl = st.number_input("Enter petal length")
